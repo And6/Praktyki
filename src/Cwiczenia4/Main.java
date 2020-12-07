@@ -1,4 +1,4 @@
-package Cwieczenia4;
+package Cwiczenia4;
 import java.util.Scanner;
 
 public class Main {

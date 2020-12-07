@@ -3,6 +3,7 @@ package Cwiczenia3;
 public class Main {
 
     public static float funkcja_kwadratowa(float x) {
+
         return 2*x*x - 3*x + 4;
     }
 
