@@ -1,4 +1,4 @@
-package Cwiczenia7;
+package Karty;
 
 import java.security.SecureRandom;
 import java.util.ArrayList;

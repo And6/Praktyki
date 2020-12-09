@@ -1,4 +1,4 @@
-package Cwiczenia7;
+package Karty;
 
 public class Card {
 
