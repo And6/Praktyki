@@ -6,7 +6,7 @@ public class Moneta {
 
     public static int losowanie(){
         SecureRandom random = new SecureRandom();
-
+        // Losowanie liczby
         int a = random.nextInt(2);
 
         return a;
@@ -15,11 +15,13 @@ public class Moneta {
     }
 
     public static void main(String[] args) {
-
-        int a =losowanie();
-        if(a==1){
+        // Zainicjowanie funkcji
+        int a = losowanie();
+        // Jeżeli a = 1 wtedy program pokaże "Orzeł"
+        if(a==1) {
             System.out.print("Orzeł");
         }
+        // W innym przypadku program pokaże "Reszka"
         else {
             System.out.print("Reszka");
         }
